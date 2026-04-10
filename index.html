@@ -66,20 +66,38 @@ body {
 .left {
     display: flex;
     gap: 3px;
+    align-items: center;
 }
 
 .badge {
     background: black;
     color: white;
     padding: 1px 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 14px;
 }
 
+/* 🔥 FIX: PERFEKT ZENTRIERT */
 .type {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 14px;
+    min-width: 24px;
+
+    font-size: 10px;
+    font-weight: bold;
+
     color: white;
-    padding: 1px 4px;
     background: #ccc;
+
+    padding: 0 4px;
 }
 
+/* kleines X */
 .delete-btn {
     position: absolute;
     top: 2px;
